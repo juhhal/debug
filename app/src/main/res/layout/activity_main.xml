@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#AF7706"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="119dp"
+            android:layout_marginBottom="464dp"
+            android:text="Sign up"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:translationZ="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="336dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginBottom="348dp"
+            android:ems="10"
+            android:hint="User name"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="516dp"
+            android:layout_marginEnd="122dp"
+            android:layout_marginBottom="180dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/yellow"
+            android:text="sign up"
+            android:textSize="18sp"
+            app:iconGravity="textEnd"
+            app:iconTint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="414dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginBottom="270dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnsignin"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="249dp"
+            android:layout_marginTop="653dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="30dp"
+            android:text="login"
+            android:textColor="#C31B1B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="678dp"
+            android:layout_marginEnd="139dp"
+            android:layout_marginBottom="29dp"
+            android:text="Already have an account?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
